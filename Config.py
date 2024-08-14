@@ -11,8 +11,8 @@ class Config():
   APP_ID = os.environ.get("APP_ID", )
   API_HASH = os.environ.get("API_HASH", "")
   # Sudo users( goto @LaylaRobot and send /id to get your id)
-  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "797768146").split()))
-  SUDO_USERS.append(797768146)
+  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "7342395108").split()))
+  SUDO_USERS.append(7342395108)
   SUDO_USERS = list(set(SUDO_USERS))
 
 class Messages():
@@ -25,7 +25,7 @@ class Messages():
         
         "**Commmands**\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username or channel ID} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n/source_code - To get bot source code😍\n\nNote: /FSub is an alias of /ForceSubscribe__",
         
-       "**Developer @HEROGAMERS1 \nDevloped By @LaylaList \nSupport Group @AwesomeSupport**"
+       "**Developer @fsyrl \nDevloped By @fsyrl \nSupport Group @AwesomeSupport**"
       ]
       SC_MSG = "**Hey [{}](tg://user?id={})**\n click on below👇 button to get my source code, for more help ask in my support group👇👇 "
 
